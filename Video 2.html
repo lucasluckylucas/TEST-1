@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Oefening lijsten</title>
+	</head>
+	<body>
+		<h1>Deze webpagina bevat voorbeelden van lijsten</h1>
+		<h2>Ongenummerde lijsten</h2>
+			<ul>
+				<li>Met de tag &lt;kbd&gt; toon je <kbd>keyboard input.</kbd></li>
+				<li>Met de tag &lt;code&gt; toon je <code>stukken computer code.</code></li>
+				<li>Met de tag &lt;samp&gt; toon je een <samp>output voorbeeld.</samp></li>
+			</ul>
+		<h2>Genummerde lijsten</h2>
+			<p>Er zijn verschillende mogelijkheden om tekst te benadrukken</p>
+				<ol>
+					<li>Met de tag &lt;strong&gt; kun je <strong>tekst belangrijk maken.</strong></li>
+					<li>Met de tag &lt;em&gt; kun je <em>tekst benadrukken</em></li>
+					<li>Met de tag &lt;cite&gt; kun je <cite>de titel van een werk</cite> tonen.</li>
+				</ol>
+		<h2>Genummerde lijsten met letters start vanaf C zonder klinkers</h2>
+			<ol  type="A" start="3">
+				<li>Begin met de letter C </li>
+				<li>Ga dan gewoon verder met D</li>
+				<li value="6">Maar sla E over en ga dus meteen naar F</li>
+				<li>Om dan terug gewoon te vervolgen met G</li>
+			</ol>
+		<h2>Ongenummerde lijsten met subonderwerpen</h2>
+			<ul>
+				<li>Wat betekend <dfn>Hogeschool</dfn>?</li>
+				<li><abbr title="Katholieke Hogeschool Limburg">KHLim</abbr> staat voor
+					<ul>
+						<li>Katholiek</li>
+						<li>Hogeschool</li>
+						<li>Limburg</li>
+					</ul>
+				</li>
+				<li><abbr title="Inustri&euml;le Wetenschappen en Technologie">IWT</abbr> staat voor
+					<ul>
+						<li>Indtustri&euml;le</li>
+						<li>Wetenschappen</li>
+						<li>en Technologie</li>
+					</ul>
+				</li>
+			</ul>
+		<h2>Genste lijsten</h2>
+			<ol>
+				<li>Je kunt je wijzigingen in een document bijhouden.
+					<ol type="i">
+						<li>Ingevoerde elementen kun je tonen met:
+							<ul>
+								<li>De &lt;ins&gt; tag: <ins>een voorbeeld</ins></li>
+							</ul>
+						</li>
+						<li>Verwijderde elementen kun je tonen met:
+							<ul>
+								<li>De &lt;del&gt; tag: <del>een voorbeeld</del></li>
+								<li>De &lt;s&gt; tag: <s>een voorbeeld</s></li>
+								<li><s>De &lt;strike&gt; tag mag jen niet meer gebruiken: een voorbeeld</s></li>
+							</ul>
+						</li>
+					</ol>
+				</li>
+				<li>Je kunt ook
+					<ol type="I" start="2">
+						<li>Tekst hoger noteren met &lt;sup&gt;<sup>II</sup></li>
+						<li>Of tekst lager noteren met &lt;sub&gt;<sub>III</sub></li>
+					</ol>
+				</li>
+				<li><q>Het is nooit gedaan</q></li>
+			</ol>
+				<blockquote>Zo toon ik grotere citaten?</blockquote>
+		<h2>Definitie lijsten</h2>
+			<dl>
+				<dt>Ongenummerde lijsten</dt>
+					<dd>Ongenummerde lijsten worden weergegeven met de tag &lt;ul&gt;, elk item met &lt;li&gt;.</dd>
+				<dt>Genummerde lijsten</dt>
+					<dd>Genummerde lijsten worden weergegeven met de tag &lt;ol&gt;, elk item met &lt;li&gt;.</dd>
+				<dt>Ongenummerde lijsten met subonderwerp</dt>
+					<dd>Sublijsten krijgen automatisch een ander opsommingsteken</dd>
+				<dt>Geneste lijsten</dt>
+					<dd>Je kunt tags &lt;ol&gt; en &lt;ul&gt; combineren.</dd>
+			</dl>
+	</body>		
+</html>
